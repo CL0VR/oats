@@ -1,16 +1,111 @@
-* {
+html {
+  height: 1200px;
+}
+
+
+body, body * {
   margin: 0px;
+  padding: 0px;
+  font-size: 24pt;
 }
 
-h1 {
+#main {
+  width: 960px;
+  margin: auto;
+}
+
+
+
+
+
+header {
   background-color: red;
-  /*margin: 0;*/
+  margin: auto;
+  position: relative;
+  height: 100px;
 }
 
-p {
+header > a {
   background-color: yellow;
 }
 
-div {
+header nav {
+  background-color: yellow;
+  padding: 3px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  overflow: hidden;
+}
+
+header nav a {
   background-color: green;
+  color: white;
+  padding: 5px 10px;
+  float: right;
+  margin-left: -1px;
+}
+
+
+
+
+
+
+
+.main-content {
+  background-color: red;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+
+.main-content aside {
+  background-color: orange;
+  color: white;
+  width: 200px;
+  /*min-height: 50px;*/
+  float: left;
+}
+
+section {
+  background-color: green;
+  color: white;
+  margin-left: 200px;
+  min-height: 200px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+.tweet {
+  background-color: red;
+  padding: 3px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.tweet img {
+  background-color: orange;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+
+.tweet h3 {
+  background-color: blue;
+  color: white;
+  margin-left: 70px;
+}
+
+.tweet p {
+  background-color: black;
+  color: white;
+  margin-left: 70px;
 }
